@@ -11,6 +11,4 @@ security:
 spring:
   datasource:
     initialization-mode: never
-    url:
-    username: root
-    password: root
+    url: ${JAWSDB_URL}
