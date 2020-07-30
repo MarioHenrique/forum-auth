@@ -12,3 +12,6 @@ spring:
   datasource:
     initialization-mode: never
     url: ${JAWSDB_URL}
+    hikari:
+      minimumIdle: 1
+      maximumPoolSize: 3
